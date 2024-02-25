@@ -6,7 +6,7 @@
 
 
 // ----------------------------------------------------------------------------------------------------------------------- //
-// TC: O(N)
+// TC: O(N)[By iteration]
 void rvereseArray(int arr[], int start, int end)
 {
     while (start < end)
@@ -21,7 +21,7 @@ void rvereseArray(int arr[], int start, int end)
 
 
 // ----------------------------------------------------------------------------------------------------------------------- //
-// TC: O(N)
+// TC: O(N)[By recursion]
 void rvereseArray(int arr[], int start, int end)
 {
     if (start >= end)
